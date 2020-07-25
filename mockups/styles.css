@@ -1,0 +1,77 @@
+/* body */
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+section h2,
+section h4,
+section .figure,
+section .avatar,
+section p.subtitle {
+    text-align: center;
+}
+
+.bg-gray{
+    box-shadow: 0 -20px 40px 0px rgba(0,0,0,0.05);   
+}
+
+/* navbar */
+
+.send{
+    align-self: center;
+    border:2px solid red;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+
+/* Banderole */
+.jumbotron {
+    background-image: linear-gradient(90deg, rgba(230,180,188,1) 0%, rgba(231,10,18,1) 50%, rgba(236,201,205,1) 100%)!important;
+}
+.jumbotron h1,
+.jumbotron p{
+    color: #ffffff!important;
+}
+
+/* Presentation */
+
+section hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 30px;
+  }
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 60px 0 50px 0;
+    background-color: #323044;
+    color: white !important;
+}
+footer h5 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer a{
+    
+    color:#39CCCC;
+    
+}
+footer a:hover {
+    color: white;
+}
+footer #eater-egg {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}

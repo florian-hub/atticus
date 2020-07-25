@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- lottie-player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-light">
+
+    <!-- navbar -->
+   
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sign-in/signin.html">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link send" href="./postPage/postPage.html">Vendre mon livre</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!-- PostBooks -->
+    <div class="container">
+        <div class="text-center">
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_d3R1M5.json" background="transparent"  speed="1"  style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;"  autoplay ></lottie-player>
+            <h2>Votre Annonce</h2>
+            <p class="description">Proposer votre livre à des millions d'étudiants pour leurs donner une seconde vie !</p>
+        </div>
+    
+    <div class="row">
+        <div class="col-md-12 order-md-1">
+            <h4 class="mb-3">Votre Livre</h4>
+
+            <form class="needs-validation" novalidate>
+      
+              <div class="mb-3">
+                <label for="ISBNcode">Code bar de votre livre</label>
+                <input type="text" class="form-control" id="ISBNcode" placeholder="9782080705037" required>
+                <div class="invalid-feedback">
+                  Entrez le code bar de votre livre.
+                </div>
+              </div>
+
+      
+              
+      
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label for="email">Email ou le client pourra vous contacter</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Veuillez entrer une adresse valide.
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="state">Etat du livre</label>
+                  <select class="custom-select d-block w-100" id="state" required>
+                    <option value="">Neuf</option>
+                    <option>Très bon état</option>
+                    <option>Bon état</option>
+                    <option>Etat correct</option>
+                    <option>Voir état dans la descritpion</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Veuillez renseigner l'état de votre livre.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="price">Prix (en euros)</label>
+                  <input type="text" class="form-control" id="price" placeholder="6" required>
+                  <div class="invalid-feedback">
+                    le prix est requis
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="Description">Descritption</label>
+                <input type="text" class="form-control" id="Description" placeholder="Un livre plutot en bon état quoique un peu écorné." required>
+                <div class="invalid-feedback">
+                  Entrez le code bar de votre livre.
+                </div>
+            </div>
+              
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Valider mon annonce</button>
+            </form>
+          </div>
+        </div>
+        
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
